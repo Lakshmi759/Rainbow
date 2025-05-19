@@ -1,0 +1,70 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.8rem;
+    color: #333;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 4px #ccc;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 20px;
+}
+
+.rainbow-btn {
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 40px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.rainbow-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.red {
+    background: linear-gradient(to right, #ff4e50, #f44336);
+}
+
+.orange {
+    background: linear-gradient(to right, #ff9800, #ff5722);
+}
+
+.yellow {
+    background: linear-gradient(to right, #ffeb3b, #ffc107);
+    color: #333;
+}
+
+.green {
+    background: linear-gradient(to right, #4caf50, #2ecc71);
+}
+
+.blue {
+    background: linear-gradient(to right, #2196f3, #1e90ff);
+}
+
+.indigo {
+    background: linear-gradient(to right, #673ab7, #8e44ad);
+}
+
+.violet {
+    background: linear-gradient(to right, #9c27b0, #e040fb);
+}
